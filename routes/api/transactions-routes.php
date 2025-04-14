@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\TransactionController;
 
 Route::middleware('auth:sanctum')->group(function () {
-
   // Transaction Management
   Route::get('/transactions', [TransactionController::class, 'index']);
   Route::post('/transactions', [TransactionController::class, 'store']);

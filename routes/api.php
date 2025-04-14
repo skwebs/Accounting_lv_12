@@ -26,3 +26,4 @@ require __DIR__ . '/api/posts-routes.php';
 require __DIR__ . '/api/accounts-routes.php';
 require __DIR__ . '/api/transactions-routes.php';
 require __DIR__ . '/api/ledgers-routes.php';
+require __DIR__ . '/api/upload-image.php';
